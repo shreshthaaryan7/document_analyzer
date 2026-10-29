@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DocuMind AI
 
 **AI-Powered Document Analyzer and Intelligent Question Answering System** — a local-first Streamlit application for importing documents, reading extracted text, searching passages, generating extractive summaries, exploring text statistics, and exporting reports.
@@ -108,3 +109,6 @@ Documents and the SQLite database remain under the local project directory. Keep
 - **Duplicate upload:** identical file bytes are detected and not added twice.
 - **Database error:** stop Streamlit, back up `data/documind.sqlite3`, and restart. Do not delete the database unless you intend to erase saved records.
 - **No search results:** try terms that appear in the source text; the current retrieval is lexical rather than semantic.
+=======
+# document_analyzer
+>>>>>>> 86f825d3382150cc3809d667a2c74ebb78b22b5e
